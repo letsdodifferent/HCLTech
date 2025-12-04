@@ -252,7 +252,7 @@ export default function PatientProfile() {
                                     name="height"
                                     value={formData.height}
                                     onChange={handleInputChange}
-                                    placeholder="e.g., 5'10\""
+                                    placeholder={"e.g., 5'10\""}
                                     className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
                                 />
                             ) : (
